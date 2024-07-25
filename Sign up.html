@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="Sign up.css" />
+    <script src="Signup.js" defer></script>
+  </head>
+  <body>
+    <div class="Parent-container" id="Parent-container">
+      <div class="body" id="bu1">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <h3>Ready to take off!</h3>
+          <div class="Input">
+            <input type="text" placeholder="Name" class="input" id="i11" />
+            <input type="email" placeholder="Email" class="input" id="i1" />
+            <div class="password-container">
+              <input
+                type="password"
+                placeholder="Password"
+                class="input"
+                id="i2"
+              />
+              <span
+                class="show-password-btn"
+                onclick="togglePasswordVisibility()"
+                >Show</span
+              >
+            </div>
+            <div class="fpassword">
+              <input
+                type="password"
+                placeholder="Re-type Password"
+                class="input"
+                id="i3"
+              />
+              <span
+                class="show-fpassword-btn"
+                onclick="togglePassword1Visibility()"
+                >Show</span
+              >
+            </div>
+          </div>
+          <div id="check1">
+            <input type="checkbox" />
+            <h4>Remind me !</h4>
+          </div>
+
+          <div class="minus">
+            <img
+              id="myImage"
+              src="minus.png"
+              style="z-index: 999"
+              width="40px"
+            />
+            <b>Or</b>
+            <img
+              id="myImageclone"
+              src="minus.png"
+              style="z-index: 999"
+              width="40px"
+            />
+          </div>
+          <div>
+            <button class="btn" onclick="signInWithGoogle()" id="btn1">
+              Sign in with Google
+            </button>
+            <button class="btn" onclick="signInWithApple()" id="btn">
+              Sign in with Apple ID
+            </button>
+            <img src="google.png" width="15px" class="img1" id="image1" />
+            <img
+              src="apple-logo.png"
+              alt="apple logo"
+              width="15px"
+              class="img1"
+              id="image2"
+            />
+          </div>
+        </div>
+        <div class="para">
+          <p>
+            Already have an account?
+            <a href="Signin page.html">Sign In</a>
+          </p>
+        </div>
+      </div>
+      <img src="microsoft.png" width="110px" class="mage" />
+      <button class="Signup">Signup</button>
+      <img src="rocket.png" width="30px" id="rocket" />
+    </div>
+    <svg width="400" height="400">
+      <circle cx="200" cy="200" r="160" fill="rgb(244,67,54)" />
+    </svg>
+    <img src="mockup.png" width="300px" id="mockup" />
+    <svg width="400" height="400" class="one">
+      <circle cx="200" cy="200" r="160" fill="rgb(255,193,7)" />
+    </svg>
+  </body>
+</html>

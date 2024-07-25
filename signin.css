@@ -1,0 +1,179 @@
+ body{
+    overflow-x: hidden;
+    
+ }
+ .body {
+     font-family: Arial, sans-serif;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     max-width: 1000px;
+     position: relative;
+     left: 260px;
+     top: 30px;
+     height: 602px;
+     overflow-x: hidden;
+     z-index: 999;
+     background-color: white;
+     border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+ }
+
+ .container {
+     max-width: 400px;
+     height: 480px;
+     margin: 0 auto;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     position: relative;
+     top: 40px;
+ }
+p{
+    position: relative;
+    top: 9px;
+    left: 500px;
+    z-index: 999;
+    font-size: 12px;
+}
+ h2 {
+     text-align: center;
+     
+ }
+
+ .btn {
+     display: block;
+     width: 90%;
+     padding: 16px;
+     margin: 30px 0;
+     border: 1px solid ;
+     border-radius: 20px;
+     background-color: transparent;
+     color: #111010;
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+     position: relative;
+     left: 17px;
+ }
+#btn1{
+background-color: #0056b3;
+border: none;
+}
+#image1{
+position: relative;
+top: -143px;
+ left: 105px;
+}
+#image2 {
+    position: relative;
+    top: -67px;
+}
+.img1{
+position: relative;
+left: 80px;
+}
+ .btn:hover {
+     background-color: #0056b3;
+ }
+ .input{
+    width: 340px;
+    height: 35px;
+    border-radius: 3px;
+    /* border: 1px black; */
+    display: inline;
+    border: 2px solid #CCCCCC
+ }
+ h3{
+    position: relative;
+    top: -10px;
+    left: 20px;
+ }
+ #i1{
+    position: relative;
+    top: 2px;
+ }
+ #i2 {
+     position: relative;
+     top: 25px;
+ }
+ input{
+   position: relative;
+   top: -20px;
+   left:20px;
+    border: none;
+    outline: none
+ }
+ p a {
+    text-decoration: none;
+    position: relative;
+ }
+ .para{
+    position: relative;
+    right: 100px;
+ }
+ h4{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #0056b3;
+ }
+ h1{
+    position: relative;
+    left: 20px;
+ }
+
+
+  .password-container {
+      position: relative;
+  }
+
+  .show-password-btn {
+      position: absolute;
+      top: 115%;
+      right: 40px;
+      transform: translateY(-50%);
+      cursor: pointer;
+      font-size: 13.5px;
+      color: #0056b3;
+  }
+   .container2 {
+       max-width: 300px;
+       height: 560px;
+       margin: 0 auto;
+       padding: 20px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       box-shadow: 0 0 10px rgba(70, 52, 52, 0.1);
+       position: relative;
+       top: -572.5px;
+       background-color:#4caf50;
+       left: -260px;
+       z-index: 0;
+   }
+   #sofa{
+    position: relative;
+    top: 200px;
+    
+   }
+   #sofa1 {
+       position: relative;
+       top: -250px;
+
+   }
+   .parent-container{
+    position: relative;
+   }
+   .body,
+   .container2 {
+    cursor: pointer;
+       transition: z-index 0.1s ease;
+       /* Add a transition effect */
+   }
+   .slide-out {
+       transform: translateX(-60%);
+   }
+
+   .blur {
+       filter: blur(10px)
+   }
+   

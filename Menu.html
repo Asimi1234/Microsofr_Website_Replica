@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="menu">
+      <li>Home</li>
+      <li>Privacy</li>
+      <li>Menu</li>
+      <li>About Us</li>
+      <li>Setting</li>
+    </ul>
+    <div id="blast">
+      <img src="./original-91f86c382474aeebccc1833159e63a36.jpg" id="blast1"/>
+    </div>
+    <button onclick="changebody()" id="bbb">hhhhh</button>
+  </body>
+  <style rel="stylesheet" type="text/css">
+    #blast {
+      border-radius: 300px;
+      background-color: red;
+      border: 1px solid black;
+      width: 300px;
+      height: 300px;
+      overflow: hidden;
+      animation-name: example;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+    }
+    #blast img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      box-shadow: 100% red;
+      z-index: 999;
+    }
+    body {
+      background-color: white;
+    }
+    @keyframes example {
+      0% {
+        position: relative;
+        top: 0px;
+        left: 0px;
+      }
+      5% {
+        position: relative;
+        top: 0px;
+        left: 10px;
+      }
+      10% {
+        position: relative;
+        top: 20px;
+        left: 10px;
+      }
+      20% {
+        position: relative;
+        top: 30px;
+        left: 30px;
+      }
+      30% {
+        position: relative;
+        top: 40px;
+        left: 40px;
+      }
+      35% {
+        position: relative;
+        top: 50px;
+        left: 50px;
+      }
+      40% {
+        position: relative;
+        top: 60px;
+        left: 50px;
+      }
+      45% {
+        position: relative;
+        top: 70px;
+        left: 60px;
+      }
+      50% {
+        position: relative;
+        top: 100px;
+        left: 60px;
+      }
+      55% {
+        position: relative;
+        top: 120px;
+        left: 60px;
+      }
+      60% {
+        position: relative;
+        top: 150px;
+        left: 70px;
+      }
+      70% {
+        position: relative;
+        top: 150px;
+        left: 80px;
+      }
+      75% {
+        position: relative;
+        top: 120px;
+        left: 70px;
+      }
+      80% {
+        position: relative;
+        top: 100px;
+        left: 60px;
+      }
+      85% {
+        position: relative;
+        top: 80px;
+        left: 50px;
+      }
+      90% {
+        position: relative;
+        top: 40px;
+        left: 30px;
+      }
+      95% {
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+      100% {
+        position: relative;
+        top: 0px;
+        left: 0px;
+      }
+    }
+  </style>
+  <script type="text/javascript" defer>
+    function changebody() {
+      var body = document.body;
+      if (document.body.style.backgroundColor == "white") {
+        document.body.style.backgroundColor = "black";
+        document.getElementById("menu").style.color = "white";
+      } else {
+        document.body.style.backgroundColor = "white";
+        document.getElementById("menu").style.color = "#1e1e1e";
+        document.getElementById("bbb").style.border = "3px solid white";
+      }
+      var x= document.getElementById('blast1');
+        if(document.getElementById('blast1').style.backgroundImage ==="url('./original-91f86c382474aeebccc1833159e63a36.jpg')"){
+document.getElementById("blast1").style.backgroundImage="url('./sofa.jpg')"
+        }
+        else{
+            document.getElementById('blast1').style.backgroundImage=="url('./original-91f86c382474aeebccc1833159e63a36.jpg')"
+        }
+      }
+
+  </script>
+</html>

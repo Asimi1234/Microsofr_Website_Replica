@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="testpage.css" type="text/css" />
+  </head>
+  <body onload="navigateToNextPage()"></body>
+  <section>
+    <img class="animate-rotate" src="spinner-of-dots.png" width="400px" />
+  </section>
+  <script type="text/javascript">
+    // Function to navigate to the next page after a delay
+    function navigateToNextPage() {
+      setTimeout(function () {
+        window.location.href = "signin page.html"; // Change "next-page.html" to the URL of your next page
+      }, 3000); // 5000 milliseconds = 5 seconds
+    }
+  </script>
+  <style rel="stylesheet" type="text/css">
+    body {
+      background: linear-gradient(to right, #e9e6e6, #a3c59f);
+
+      overflow-x: hidden;
+    }
+    .animate-rotate {
+      position: relative;
+      left: 460px;
+      top: 120px;
+    }
+  </style>
+</html>

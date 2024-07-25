@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link href="signin.css" rel="stylesheet" type="text/css" />
+    <script src="signin.js" defer></script>
+  </head>
+  <body>
+    <div class="Parent-container" id="Parent-container">
+      <div class="body" id="bu1">
+        <div class="container">
+          <h1>Sign In</h1>
+          <h3>Sit back and enjoy the journey!</h3>
+          <div class="Input">
+            <input
+              type="text"
+              placeholder="Email or Phone"
+              class="input"
+              id="i1"
+            />
+            <div class="password-container">
+              <input
+                type="password"
+                placeholder="Password"
+                class="input"
+                id="i2"
+              />
+              <span
+                class="show-password-btn"
+                onclick="togglePasswordVisibility()"
+                >Show</span
+              >
+            </div>
+          </div>
+          <h4>Forget Password?</h4>
+          <button class="btn" id="btn1" onclick="signIn()">Sign in</button>
+          <img
+            id="myImage"
+            src="spinner-of-dots.png"
+            style="display: none; z-index: 999"
+          />
+          <div>
+            <button class="btn" onclick="signInWithGoogle()">
+              Sign in with Google
+            </button>
+            <button class="btn" onclick="signInWithApple()">
+              Sign in with Apple ID
+            </button>
+            <img src="google.png" width="20px" class="img1" id="image1" />
+            <img
+              src="apple-logo.png"
+              alt="apple logo"
+              width="20px"
+              class="img1"
+              id="image2"
+            />
+          </div>
+        </div>
+        <div class="para">
+          <p>
+            Don't have an account?
+            <a href="Sign up.html">Sign Up</a>
+          </p>
+        </div>
+      </div>
+      <div class="container2" id="bu2">
+        <img src="wellcome.jpg" width="300px" id="sofa" />
+        <img
+          src="ccyg_wbso_211025-removebg-preview.jpg"
+          width="200px"
+          id="sofa1"
+        />
+      </div>
+    </div>
+  </body>
+</html>

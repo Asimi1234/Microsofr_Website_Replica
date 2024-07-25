@@ -1,0 +1,111 @@
+:root {
+    --topbar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #c9c6c6;
+    --text-color: #030000;
+
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.1s ease;
+    --tran-05: all 0.1s ease;
+}
+
+
+.topbar .text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+    transition: var(--tran-04);
+    white-space: nowrap;
+
+    overflow: hidden;
+}
+
+.topbar .image {
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.topbar {
+    position: absolute;
+    top: 80px;
+    left: 37px;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px 14px;
+    z-index: 999;
+    /* background: var(--sidebar-color); */
+    transition: var(--tran-05);
+    border-radius: 3px;
+}
+
+.topbar.active {
+    width: 1245px;
+    /* background-color: ; */
+    background: linear-gradient(to right, #e9e6e6, #a3c59f);
+    height: 80%;
+}
+
+active.topbar {
+    width: 20px;
+}
+
+.topbar .image-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-text .header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text .name {
+    font-weight: 600;
+}
+
+.header-text .profession {
+    font-weight: 600;
+}
+
+#drop {
+    position: relative;
+    left: 23px;
+    top: 23px;
+    cursor: grab;
+}
+
+#drop img {
+    position: absolute;
+    top: -30px;
+    left: 55px;
+    transform: translateY(-50%);
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--sidebar-color);
+}
+.least ul li {
+    display: flex;
+    list-style: none;
+    padding: 6px;
+    font-size: small;
+    margin: 15px;
+}
+
+#l2 {
+    font-weight: 800;
+    color: rgb(94, 87, 87);
+}
+.topbar {
+    display: flex;
+}

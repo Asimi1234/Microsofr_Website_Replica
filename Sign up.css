@@ -1,0 +1,180 @@
+.Parent-container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+    top: 20px;
+    left: 65px;
+   
+    z-index: 1;
+    background-color: white;
+}
+body{background-color: white;
+overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.body{
+    position: relative;
+    left: 40px;
+    top: 70px;
+    
+}
+#i2{
+    width: 370px;
+    margin-bottom: 20px;
+}
+#i3 {
+    width: 370px;
+    margin-bottom: 20px;
+}
+#i1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.mage{
+    position: relative;
+    bottom:190px ;
+    left: 530px;
+}
+#check1{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    right: 5px;
+    top:-20px
+}
+  .show-password-btn {
+      position: absolute;
+      top: 152px;
+      right: 341px;
+      transform: translateY(-50%);
+      cursor: pointer;
+      font-size: 13.5px;
+      color: #0056b3;
+  }
+  .show-fpassword-btn {
+      position: absolute;
+      top: 193px;
+      left: 330px;
+      transform: translateY(-50%);
+      cursor: pointer;
+      font-size: 13.5px;
+      color: #0056b3;
+  }
+  h4{
+    color: #0056b3;
+    
+  }
+  svg{
+    position: relative;
+    left: -125px;
+    bottom: 490px;
+    z-index: 0;
+    top: -770px;
+  }
+  svg.one {
+      position: relative;
+      left: 355px;
+      z-index: 0;
+      top: -270px;
+
+  }
+  .minus{
+position: relative;
+left: 90px;
+top: 10px;
+  }
+  #myImage{
+    margin-left: 20px;
+  }
+  #myImageclone {
+      margin-left: 40px;
+  }
+  b{
+    position: relative;
+    top: -16px;
+    left: 20px;
+  }
+   .btn {
+       width: 20%;
+       height: 30px;
+       padding: 3px;
+       margin: 10px 0;
+       border: 1px solid;
+       border-radius: 20px;
+       background-color: transparent;
+       color: #111010;
+       text-align: center;
+       text-decoration: none;
+       cursor: pointer;
+       position: relative;
+       left: -18px;
+       margin-left: 10px;
+       font-weight: 550;
+   }
+   .btn:hover {
+       background-color: rgb(33, 150, 243);
+   }
+   #btn:hover {
+       background-color: rgb(76, 175, 80);
+   }
+   #mockup{
+    position: relative;
+    z-index: 999;
+    left: 550px;
+    top: -520px;
+   }
+   #btn,#btn1{
+    width: 186px;
+   }
+   p{
+    position: relative;
+    left: 80px;
+   }
+   a{
+    text-decoration: none;
+   }
+   a:hover{
+    color: rgb(255, 193, 7);
+   }
+   #image1{
+    position: relative;
+    right: 395px;
+    top: 2.5px;
+   }
+   #image2 {
+       position: relative;
+       right: 216px;
+       top: 1.2px;
+   }
+        .Signup {
+            width: 30%;
+            height: 40px;
+            padding: 3px;
+            margin: 10px 0;
+            border: 1px solid;
+            border-radius: 20px;
+            background-color: rgb(37, 97, 224);
+            color: #111010;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            position: relative;
+            left: 12px;
+            font-weight: 700;
+            bottom: 190px;
+        }
+        .Signup:hover{
+            color: white;
+        }
+        #rocket{
+            position: relative;
+            bottom: 385px;
+            right: 130px;
+        }
+        #rocket:hover{
+        transform: translateY(-50%)
+        }
+        

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="Page1.css" />
+  </head>
+  <body>
+    <nav class="dropdown1">
+      <header></header>
+    </nav>
+
+    <div class="header">
+      <div class="subheader">
+        <div class="Microsoft">
+          <img src="microsoft.png" width="30px" />
+          <h1>Microsoft</h1>
+        </div>
+        <div class="icons">
+          <img
+            src="hamburger.png"
+            width="20px"
+            height="20px"
+            style="position: relative; top: 5px"
+          />
+          <img src="add-user.png" width="30px" class="user" />
+        </div>
+      </div>
+    </div>
+    <div class="search">
+      <input
+        type="search"
+        placeholder="Search............"
+        class="search-input"
+      />
+      <button type="submit" class="button-search">Search</button>
+    </div>
+    <div id="squares">
+      <div class="square" id="square1"></div>
+      <div class="square" id="square2">
+        <img src="security-shield.png" id="one" />
+      </div>
+      <div class="square" id="square3"><img src="location.png" id="two" /></div>
+      <div class="square" id="square4">
+        <img src="New folder/Free_trial__4_-removebg-preview.png" id="three" />
+      </div>
+      <div class="square" id="square5"></div>
+    </div>
+    <div class="contain">
+      <button class="btn">Free trial</button>
+      <button class="btn1">Explore</button>
+      <!-- <img src="" id="four" /> -->
+    </div>
+    <!-- <img src="New folder/Free_trial__6_-removebg-preview.png" id="five" /> -->
+    <!-- <img src="ksiri.png" id="six" height="390px" /> -->
+    <h2>Connect with loved ones</h2>
+    <h3 class="edit">We <span></span></h3>
+
+    <script type="text/javascript">
+      let btn = document.querySelector(".user");
+      let dropdown = document.querySelector(".dropdown1");
+
+      btn.onclick = function () {
+        dropdown.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
